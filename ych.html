@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Atelier Lyssmimi - YCH Galería</title>
+    <link rel="stylesheet" href="css\ych.css">
+</head>
+<body>
+
+    <a href="index.html" class="back-btn">← Regresar al Grimorio</a>
+
+    <div class="atelier-container">
+        <h1 class="section-title">Subastas & Diseños YCH</h1>
+        
+        <div class="ych-grid">
+            <div class="ych-item" data-title="El Pacto del Vampiro" data-details="Espacio disponible para cualquier género. Ropaje victoriano de encaje incluido. Fondo de luna sangrienta." data-img="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=600">
+                <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=600" alt="YCH 1">
+                <div class="ych-overlay-title">El Pacto del Vampiro</div>
+            </div>
+            
+            <div class="ych-item" data-title="Tinta de Hechicero" data-details="Diseño exclusivo de manos y rostro conjurando runas mágicas estilo Atelier. Filtros dorados." data-img="https://images.unsplash.com/photo-1580136579312-94651dfd596d?q=80&w=600">
+                <img src="https://images.unsplash.com/photo-1580136579312-94651dfd596d?q=80&w=600" alt="YCH 2">
+                <div class="ych-overlay-title">Tinta de Hechicero</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="ych-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <div class="modal-body-layout">
+                <img id="modal-img" src="" alt="Detalle">
+                <div class="modal-info">
+                    <h2 id="modal-title">Título del Diseño</h2>
+                    <p id="modal-details">Detalles de la subasta aquí...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js\ych.js"></script>
+</body>
+</html>
